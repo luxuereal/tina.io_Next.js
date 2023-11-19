@@ -1,0 +1,84 @@
+{
+  "seo": {
+    "title": "Roadmap",
+    "description": "Roadmap for TinaCMS"
+  },
+  "blocks": [
+    {
+      "headline": "Roadmap",
+      "text": "",
+      "_template": "hero"
+    },
+    {
+      "options": {
+        "narrow": true,
+        "color": "white"
+      },
+      "content": "Welcome to Tina's public roadmap! This is a live document, and will be updated regularly. We'll move tickets to the roadmap once we have a high degree of confidence that they will be worked on in a given time-frame. To submit an idea, or to view a list of feature requests and ideas that we're considering, check out our [GitHub Discussions](https://github.com/tinacms/tinacms/discussions \"GitHub Discussions\")\n",
+      "_template": "content"
+    },
+    {
+      "headline": "Recently Released",
+      "items": [
+        {
+          "headline": "Editorial Workflow",
+          "status": "Released",
+          "content": "Supporting Drafts on un-published documents through a \"`draft: true`\" front-matter field. \\\nWe are also looking into some ways to better support working from separate branch deployments, for bigger sets of changes.\n"
+        },
+        {
+          "headline": "Document Search",
+          "status": "Released",
+          "content": "Document Discoverability can be a challenge as the number of posts grow. We're looking into improving this either by providing our own search.\n"
+        },
+        {
+          "headline": "Forestry.io -> Tina Migration CLI Tool",
+          "status": "Released",
+          "content": "When you run \\`@tinacms/cli init@latest init\\` on a site with Forestry config, we will import some defaults, as well as your front-matter-templates.\n",
+          "actions": [
+            {
+              "label": "See Guide",
+              "icon": false,
+              "variant": "blue",
+              "size": "medium",
+              "url": "https://tina.io/docs/forestry/migrate/"
+            }
+          ]
+        }
+      ],
+      "options": {
+        "paddingTop": false,
+        "paddingBottom": true
+      },
+      "_template": "roadmapGrid"
+    },
+    {
+      "headline": "Next 3 months",
+      "items": [
+        {
+          "headline": "Improving Self-hosted experience",
+          "status": "In-progress",
+          "content": "We are currently working on some improvements to the self-hosted experience, to bring closer parity to using Tina Cloud\n"
+        },
+        {
+          "headline": "Improving Media Management UX",
+          "status": "In Progress",
+          "content": "There are several media management improvements that we have on our list (image search, support for more media types, etc). We'd like to invest some time making Tina+media more powerful for editors and developers.\n",
+          "actions": [
+            {
+              "label": "GitHub Discussion",
+              "icon": false,
+              "variant": "blue",
+              "size": "medium",
+              "url": "https://github.com/tinacms/tinacms/discussions/3418"
+            }
+          ]
+        }
+      ],
+      "options": {
+        "paddingTop": false,
+        "paddingBottom": true
+      },
+      "_template": "roadmapGrid"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "blocks": [
+    {
+      "features": [
+        {
+          "headline": "A CMS With Version Control Built-in",
+          "text": "Tina is a fully open-source headless CMS that supports Git",
+          "actions": [
+            {
+              "label": "npx create-tina-app@latest",
+              "icon": false,
+              "variant": "command",
+              "size": "medium",
+              "url": ""
+            }
+          ],
+          "media": [
+            {
+              "src": "tina-io/new-homepage/homepage-demo-2",
+              "_template": "video"
+            }
+          ]
+        }
+      ],
+      "_template": "features"
+    },
+    {
+      "title": "Trusted by",
+      "items": [
+        {
+          "name": "Unity",
+          "link": "https://unity.com",
+          "logo": "https://res.cloudinary.com/forestry-demo/image/upload/w_600,q_auto/v1693531489/tina-io/new-homepage/unity-logo-white.png",
+          "size": 250
+        },
+        {
+          "name": "Protocol Labs",
+          "link": "https://protocol.ai/",
+          "logo": "/svg/logos/protocollabs.svg",
+          "size": 90
+        },
+        {
+          "name": "City of London",
+          "link": "https://www.cityoflondon.gov.uk/",
+          "logo": "https://res.cloudinary.com/forestry-demo/image/upload/v1694021728/tina-io/new-homepage/city-of-london.svg",
+          "size": 75
+        },
+        {
+          "name": "Devolver Digital",
+          "link": "https://www.devolverdigital.com/",
+          "logo": "/svg/logos/devolverdigital.svg",
+          "size": 180
+        },
+        {
+          "name": "Smashing Magazine",
+          "link": "https://www.smashingmagazine.com/",
+          "logo": "/svg/logos/smashing.svg",
+          "size": 110
+        }
+      ],
+      "_template": "logoGrid"
+    },
+    {
+      "features": [
+        {
+          "headline": "Own Your Content",
+          "text": "Don't lock your content in a 3rd-party service.  Tina writes to files in your repository (MDX, Markdown, JSON, etc)",
+          "actions": [
+            {
+              "label": "Learn More",
+              "icon": false,
+              "variant": "white",
+              "size": "small",
+              "url": "https://tina.io/docs/product-tour/"
+            }
+          ],
+          "media": [
+            {
+              "file": "about.mdx",
+              "code": "---\ntitle: Collaborate With Your Team\n---\n\nOnline tools help drive your business forward.\nReach new audiences and collaborate with your\nteam – **All in the cloud.**\n\n<Button\ntext=\"Get Started\"\nlink=\"/get-started\"\n/>",
+              "language": "markdown",
+              "scale": 1,
+              "_template": "code"
+            }
+          ]
+        },
+        {
+          "headline": "An API for your Content",
+          "text": "Easily fetch your file-based content using Tina's Data Layer",
+          "media": [
+            {
+              "file": "query.gql",
+              "code": "query {\n  post(relativePath: \"about.mdx\") {\n    title\n  }\n}",
+              "language": "javascript",
+              "scale": 1,
+              "_template": "code"
+            }
+          ]
+        },
+        {
+          "headline": "Configure with Code",
+          "text": "Tina is code-first and fully typed. Define your CMS in the Tina config file in your repository",
+          "actions": [
+            {
+              "label": "Read The Docs",
+              "icon": false,
+              "variant": "white",
+              "size": "small",
+              "url": "docs/schema/"
+            }
+          ],
+          "media": [
+            {
+              "file": "config.tsx",
+              "code": "const tinaConfig = defineConfig({\n  schema: {\n    collections: [\n      {\n        name: 'doc',\n        label: 'Docs',\n        path: 'content/docs',\n        fields: [\n          {\n            name: 'title',\n            label: 'Title',\n            type: 'string',\n          },\n          {\n            type: 'rich-text',\n            name: 'body',\n            label: 'Body',\n            isBody: true,\n          },\n        ],\n      },\n    ],\n  },\n  // ...\n})\n",
+              "language": "javascript",
+              "scale": 0.8,
+              "_template": "code"
+            }
+          ]
+        }
+      ],
+      "_template": "features"
+    },
+    {
+      "title2": "\"Tina is transforming the way we do docs at Unity\"",
+      "subtext": "Anton Iancu, Product Engineering Manager for AI and Docs",
+      "logo": "https://res.cloudinary.com/forestry-demo/image/upload/v1693531489/tina-io/new-homepage/unity-logo-white.png",
+      "_template": "quote"
+    },
+    {
+      "testimonials": [
+        {
+          "name": "Boko Colse",
+          "username": "struhy_xd",
+          "avatar": "https://res.cloudinary.com/forestry-demo/image/upload/v1696342922/testimonials/avatars/Boko-C%CC%8Colse_um356c.jpg",
+          "date": "2023-09-26T03:00:00.000Z",
+          "testimonial": "Oh wow, I thought Sanity was good, but @tinacms is all I need.\n",
+          "link": "https://twitter.com/struhy_xd/status/1706770885254787099"
+        },
+        {
+          "name": " Dave Keen",
+          "username": "ccapndave",
+          "avatar": "https://res.cloudinary.com/forestry-demo/image/upload/c_scale,w_56/v1689355588/testimonials/avatars/ccapndave_ka7f5u.webp",
+          "date": "2023-06-02T03:00:00.000Z",
+          "testimonial": "It’s absolutely amazing. Its so simple to install, the typed NextJS integration is amazing, the live editor is as good as it gets. And compared to other CMSs, the admin is incredibly easy for editors to understand and use.\n",
+          "link": "https://discord.com/channels/835168149439643678/848932514911354880/1113764832668299274"
+        },
+        {
+          "name": "Billy Best",
+          "username": "billybest5276",
+          "avatar": "https://res.cloudinary.com/forestry-demo/image/upload/v1691504396/testimonials/avatars/billy-best_wbcpsb.jpg",
+          "date": "2023-08-06T03:00:00.000Z",
+          "testimonial": "Just found this and I think I am already in love.\n",
+          "link": "https://www.youtube.com/watch?v=PcgnJDILv4w&lc=Ugy92XCmtPug2_1Lr554AaABAg"
+        },
+        {
+          "name": "Mravec",
+          "username": "mravec",
+          "avatar": "https://res.cloudinary.com/forestry-demo/image/upload/c_scale,w_56/v1689354995/testimonials/avatars/mravec_tglyht.webp",
+          "date": "2023-06-14T03:00:00.000Z",
+          "testimonial": "Just tried out click-to-edit and it's really awesome. Super easy to use and to setup, love that it's fully typed and works passed down as a prop, kinda feels like magic tbh.\n",
+          "link": "https://discord.com/channels/835168149439643678/848932514911354880/1118255235706663103"
+        },
+        {
+          "name": "Peter Rusin",
+          "avatar": "https://res.cloudinary.com/forestry-demo/image/upload/v1693942535/testimonials/avatars/piotr-rusin_ne0l3j.jpg",
+          "date": "2023-09-05T03:00:00.000Z",
+          "testimonial": "I tried a dozen CMSs and I have to say, as an engineer, I like Tina the most.\n",
+          "link": "https://rusin.work"
+        },
+        {
+          "name": "Sean Pearce",
+          "avatar": "https://res.cloudinary.com/forestry-demo/image/upload/c_scale,w_56/v1689356500/testimonials/avatars/sean_bnwhd9.png",
+          "date": "2023-03-30T03:00:00.000Z",
+          "testimonial": "Tina's in-context editor cannot be beaten, we’re all in on it.\n"
+        },
+        {
+          "name": "rascode",
+          "username": "rascode11",
+          "avatar": "https://res.cloudinary.com/forestry-demo/image/upload/c_scale,w_56/v1689354758/testimonials/avatars/rascode11_elrciv.jpg",
+          "date": "2022-12-06T04:00:00.000Z",
+          "testimonial": "@tinacms is a dream come true.\n",
+          "link": "https://twitter.com/rascode11/status/1600175861621088266"
+        }
+      ],
+      "_template": "testimonials"
+    },
+    {
+      "features": [
+        {
+          "headline": "Merge With Confidence",
+          "text": "Tina Cloud Enterprise customers can review, approve, and manage content  on different branches",
+          "actions": [
+            {
+              "label": "Editorial Workflow",
+              "icon": false,
+              "variant": "blue",
+              "size": "small",
+              "url": "https://tina.io/editorial-workflow"
+            }
+          ],
+          "media": [
+            {
+              "src": "v1689260393/blog-media/editorial-workflow/create-branch",
+              "_template": "video"
+            }
+          ]
+        },
+        {
+          "headline": "Unbeatable UX",
+          "text": "Editing content in Markdown, MDX, and JSON files doesn't need to feel clunky.  Tina supports a live preview that takes the UX to the next level",
+          "media": [
+            {
+              "src": "tina-io/new-homepage/homepage-demo-2",
+              "_template": "video"
+            }
+          ]
+        }
+      ],
+      "_template": "features"
+    },
+    {
+      "items": [
+        {
+          "headline": "Visual Editing",
+          "text": "See content changes in real-time as you edit. ",
+          "actions": [
+            {
+              "label": "Try Demo",
+              "icon": false,
+              "variant": "default",
+              "size": "small",
+              "url": "https://quick-edit-demo.vercel.app/admin#/~"
+            }
+          ]
+        },
+        {
+          "headline": "Fully Open-Source",
+          "text": "Tina is licensed under Apache 2.0. \nIt can be self-hosted or hosted on Tina Cloud."
+        },
+        {
+          "headline": "Develop Locally",
+          "text": "Run Tina locally and talk to your local filesystem. "
+        },
+        {
+          "headline": "3rd-party Media",
+          "text": "Store Media assets in your repo or connect to S3, Cloudinary, etc.",
+          "actions": [
+            {
+              "label": "Read Docs",
+              "icon": false,
+              "variant": "default",
+              "size": "small",
+              "url": "/docs/reference/media/external/authentication/"
+            }
+          ]
+        },
+        {
+          "headline": "Composable Blocks",
+          "text": "Create reusable components that you can edit with Tina. Let your team assemble pages like a site-builder.",
+          "actions": [
+            {
+              "label": "Read Docs",
+              "icon": false,
+              "variant": "default",
+              "size": "small",
+              "url": "/docs/editing/blocks/"
+            }
+          ]
+        },
+        {
+          "headline": "Markdown at Scale ",
+          "text": "Tina powers sites with 10’s of thousands of pages with great performance."
+        }
+      ],
+      "_template": "featureGrid"
+    },
+    {
+      "title": "Recent Posts",
+      "_template": "recentPosts"
+    }
+  ]
+}

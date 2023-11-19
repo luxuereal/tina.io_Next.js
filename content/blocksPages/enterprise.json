@@ -1,0 +1,176 @@
+{
+  "blocks": [
+    {
+      "headline": "Tina for Enterprise",
+      "text": "Reduce costs. Increase security & performance.",
+      "actions": [
+        {
+          "label": "Request 1-Pager",
+          "icon": false,
+          "variant": "white",
+          "size": "small",
+          "url": "mailto:info@tina.io?subject=TinaCMS Enterprise 1-Pager&body=Hello, I'd like more information about the TinaCMS Enterprise Solution."
+        },
+        {
+          "label": "Schedule a Demo",
+          "icon": false,
+          "variant": "blue",
+          "size": "small",
+          "url": "https://meetings-eu1.hubspot.com/scott15"
+        }
+      ],
+      "margin": "",
+      "spacing": "gap-10",
+      "_template": "hero"
+    },
+    {
+      "title": "Trusted by",
+      "items": [
+        {
+          "name": "Unity",
+          "link": "https://unity.com",
+          "logo": "https://res.cloudinary.com/forestry-demo/image/upload/w_600,q_auto/v1693531489/tina-io/new-homepage/unity-logo-white.png",
+          "size": 250
+        },
+        {
+          "name": "Protocol Labs",
+          "link": "https://protocol.ai/",
+          "logo": "/svg/logos/protocollabs.svg",
+          "size": 90
+        },
+        {
+          "name": "City of London",
+          "link": "https://www.cityoflondon.gov.uk/",
+          "logo": "https://res.cloudinary.com/forestry-demo/image/upload/v1694021728/tina-io/new-homepage/city-of-london.svg",
+          "size": 75
+        },
+        {
+          "name": "Devolver Digital",
+          "link": "https://www.devolverdigital.com/",
+          "logo": "/svg/logos/devolverdigital.svg",
+          "size": 180
+        },
+        {
+          "name": "Smashing Magazine",
+          "link": "https://www.smashingmagazine.com/",
+          "logo": "/svg/logos/smashing.svg",
+          "size": 110
+        }
+      ],
+      "_template": "logoGrid"
+    },
+    {
+      "items": [
+        {
+          "headline": "Built-in Version Control",
+          "text": "Tina is built on Git. Easily revert to earlier versions, undo mistakes, work on branches, and deploy with confidence."
+        },
+        {
+          "headline": "Reduced Costs",
+          "text": "When switching to TinaCMS, most customers reduce licensing and operating costs by more than 50%. "
+        },
+        {
+          "headline": "Self-host",
+          "text": "TinaCMS can be self-hosted behind your firewall for increased security. "
+        },
+        {
+          "headline": "Editorial Workflow",
+          "text": "Editorial workflows backed by Git are built into Tina. Your content team can make Pull Requests (PRs) without leaving the CMS. ",
+          "actions": [
+            {
+              "label": "Learn More",
+              "icon": false,
+              "variant": "white",
+              "size": "small",
+              "url": "https://tina.io/editorial-workflow/"
+            }
+          ]
+        },
+        {
+          "headline": "Performance and Scalability",
+          "text": "Static architecture delivers fast load times and scalability by pre-rendering pages as static assets and serving them from a CDN. This often  eliminates down-time and results in a 10 x time-to-first-byte."
+        },
+        {
+          "headline": "Enhanced Security",
+          "text": "Reduce the attack surface without a database and server-side processing. Static files and strict access controls minimize vulnerabilities, offering a more secure architecture. "
+        }
+      ],
+      "_template": "featureGrid"
+    },
+    {
+      "title2": "\"Tina is transforming the way we do docs at Unity\"",
+      "subtext": "Anton Iancu, Product Engineering Manager for AI and Docs",
+      "logo": "https://res.cloudinary.com/forestry-demo/image/upload/v1693531489/tina-io/new-homepage/unity-logo-white.png",
+      "_template": "quote"
+    },
+    {
+      "items": [
+        {
+          "headline": "Single Sign On",
+          "text": "Compatible with the most popular IdPs like Okta and support for both SAML and OIDC."
+        },
+        {
+          "headline": "SOC 2 and GDPR",
+          "text": "Actively pursuing SOC 2 certification and GDPR compliance."
+        },
+        {
+          "headline": "Uptime SLAs",
+          "text": "99.9% server uptime with swift communications if something impacts your sending integration."
+        },
+        {
+          "headline": "Simplified Development & Maintenance",
+          "text": "Web teams become efficient when using modern frameworks and TinaCMS. Updates and deployments become simpler, reducing the risk of bugs and downtime."
+        },
+        {
+          "headline": "CI/CD ",
+          "text": "Integration with a modern CI/CD pipeline to perform all checks and run scripts.   Easily configure separate environments such as pre-production and  production. \n"
+        },
+        {
+          "headline": "No More Caching",
+          "text": "Remove the need for complex caching layers. Caching is built it with statically generated content distributed through CDN networks. \n"
+        }
+      ],
+      "_template": "featureGrid"
+    },
+    {
+      "options": {
+        "narrow": true,
+        "color": "white",
+        "align": "center"
+      },
+      "content": "## Reduced Hosting and Operating Costs\n\nMost customers reduce licensing and operating costs by more than 50% when switching to TinaCMS from other enterprise-level CMS platforms.\n",
+      "_template": "content"
+    },
+    {
+      "items": [
+        {
+          "headline": "Reduced Hosting and Operating Costs",
+          "text": "Most customers reduce licensing and operating costs by more than 50% when switching to TinaCMS from other enterprise-level CMS platforms."
+        },
+        {
+          "headline": "Training & Support",
+          "text": "Get access to the team behind TinaCMS for training, priority support, and custom development."
+        }
+      ],
+      "_template": "featureGrid"
+    },
+    {
+      "headline": "Get a Demo",
+      "text": "Discuss your project and get a demo from a TinaCMS team member",
+      "actions": [
+        {
+          "label": "Schedule Demo",
+          "icon": false,
+          "variant": "blue",
+          "size": "large",
+          "url": "https://meetings-eu1.hubspot.com/scott15"
+        }
+      ],
+      "_template": "hero"
+    }
+  ],
+  "seo": {
+    "title": "Enterprise",
+    "description": ""
+  }
+}
